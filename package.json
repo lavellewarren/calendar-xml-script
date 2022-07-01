@@ -1,0 +1,20 @@
+{
+  "name": "calendar-xml-script",
+  "version": "1.0.0",
+  "description": "Parse xml from api and insert into mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "newcometlab",
+  "license": "ISC",
+  "dependencies": {
+    "date-and-time": "^2.4.0",
+    "dotenv": "^16.0.1",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "mysql": "^2.18.1",
+    "node-xml-stream": "^1.0.2",
+    "xml2js": "^0.4.23"
+  }
+}
